@@ -3,21 +3,16 @@
 
 int main(int argc, char *argv[]) {
   int n = atoi(argv[1]);
-   int m = n;
-  for(int i = 0; i < n; i++){
-    m = n;
-    while (m> 0) {
-    if (m%2 == 0)   {
+  for(int i = 0; i < n ; i++){
+    for (int j = 0; j < n ; j++) {
+      if ((j + i)%2 == 0) {
         printf("1");
-        m --;
       }
-    else{
-      printf("2");
-      m --;
+      else{
+        printf("2");
+      }
     }
-  }
     printf("\n");
 }
-
 return 0;
 }

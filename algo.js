@@ -1,15 +1,11 @@
-//prompt() solo funciona en navegador.
-
-let a = prompt('Ingresa a')
-
-let b = prompt('Ingresa b')
-
-let c = prompt('Ingresa c')
-
-if (a == b && b == c){
- console.log('Iguales')
-}
-
-else {
- console.log('No iguales');
+let n = 4;
+let res = 1;
+lf (n ==o) {
+console.log (res);
+} else {
+  whilte (n > 0) {
+    res = res * n;
+  n--;
+  }
+  console.log (res);
 }
